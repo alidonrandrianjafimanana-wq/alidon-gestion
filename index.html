@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ALIDON GESTION | Logiciel de gestion</title>
+
+    <meta name="description"
+          content="ALIDON GESTION est un logiciel simple, moderne et complet pour gérer les ventes, achats, stocks et activités de votre entreprise.">
+
+    <meta name="keywords"
+          content="ALIDON GESTION, logiciel gestion, gestion entreprise, stock, ventes, achats">
+
+    <meta name="author" content="ALIDON GESTION">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a href="#accueil" class="logo">
+            <img src="logo_alidon.png" alt="ALIDON GESTION">
+            <span>ALIDON <strong>GESTION</strong></span>
+        </a>
+
+        <nav class="nav">
+            <a href="#accueil">Accueil</a>
+            <a href="#logiciel">Le logiciel</a>
+            <a href="#fonctionnalites">Fonctionnalités</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact">Contact</a>
+
+            <a href="alidon gestion setup.exe"
+               class="nav-download"
+               download>
+                Télécharger
+            </a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="accueil">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                ✦ Solution de gestion moderne
+            </div>
+
+            <h1>
+                Gérez votre entreprise
+                <span>simplement.</span>
+            </h1>
+
+            <p class="hero-text">
+                ALIDON GESTION vous aide à gérer facilement
+                vos ventes, vos achats, votre stock et les
+                principales activités de votre entreprise.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="alidon gestion setup.exe"
+                   class="btn btn-primary"
+                   download>
+                    ⬇ Télécharger ALIDON GESTION
+                </a>
+
+                <a href="#fonctionnalites"
+                   class="btn btn-secondary">
+                    Découvrir les fonctionnalités
+                </a>
+
+            </div>
+
+            <div class="hero-points">
+
+                <div>
+                    <span>✓</span>
+                    <strong>Simple</strong>
+                    <small>Facile à utiliser</small>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <strong>Rapide</strong>
+                    <small>Gagnez du temps</small>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <strong>Complet</strong>
+                    <small>Tout au même endroit</small>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- DASHBOARD PREVIEW -->
+
+        <div class="dashboard-wrapper">
+
+            <div class="dashboard">
+
+                <div class="dashboard-top">
+
+                    <div class="dashboard-brand">
+                        <img src="logo_alidon.png"
+                             alt="Logo ALIDON">
+                        <span>ALIDON GESTION</span>
+                    </div>
+
+                    <div class="dashboard-user">
+                        ●
+                    </div>
+
+                </div>
+
+
+                <div class="dashboard-body">
+
+                    <aside class="dashboard-sidebar">
+
+                        <div class="side-item active">
+                            ◈ <span>Tableau de bord</span>
+                        </div>
+
+                        <div class="side-item">
+                            ▣ <span>Ventes</span>
+                        </div>
+
+                        <div class="side-item">
+                            ▤ <span>Achats</span>
+                        </div>
+
+                        <div class="side-item">
+                            ◫ <span>Stock</span>
+                        </div>
+
+                        <div class="side-item">
+                            ⚙ <span>Paramètres</span>
+                        </div>
+
+                    </aside>
+
+
+                    <main class="dashboard-main">
+
+                        <div class="dashboard-title">
+                            <div>
+                                <small>TABLEAU DE BORD</small>
+                                <h3>Vue générale</h3>
+                            </div>
+
+                            <span class="dashboard-date">
+                                Aujourd'hui
+                            </span>
+                        </div>
+
+
+                        <div class="stats-grid">
+
+                            <div class="stat-card">
+                                <span>Ventes</span>
+                                <strong>2 450 €</strong>
+                                <small>↗ +12,5%</small>
+                            </div>
+
+                            <div class="stat-card">
+                                <span>Achats</span>
+                                <strong>1 280 €</strong>
+                                <small>↗ +6,2%</small>
+                            </div>
+
+                            <div class="stat-card">
+                                <span>Stock</span>
+                                <strong>856</strong>
+                                <small>Produits</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="chart-card">
+
+                            <div class="chart-header">
+                                <div>
+                                    <span>Évolution des ventes</span>
+                                    <strong>12 580 €</strong>
+                                </div>
+
+                                <small>Cette année</small>
+                            </div>
+
+                            <svg
+                                class="sales-chart"
+                                viewBox="0 0 500 180"
+                                preserveAspectRatio="none">
+
+                                <defs>
+
+                                    <linearGradient
+                                        id="chartGradient"
+                                        x1="0"
+                                        y1="0"
+                                        x2="0"
+                                        y2="1">
+
+                                        <stop
+                                            offset="0%"
+                                            stop-opacity="0.30"/>
+
+                                        <stop
+                                            offset="100%"
+                                            stop-opacity="0"/>
+
+                                    </linearGradient>
+
+                                </defs>
+
+                                <path
+                                    d="M0,145
+                                       C35,138 45,120 75,125
+                                       S120,105 150,112
+                                       S190,75 220,90
+                                       S260,58 290,72
+                                       S330,48 355,60
+                                       S400,30 430,48
+                                       S470,20 500,30
+                                       L500,180
+                                       L0,180 Z"
+                                    fill="url(#chartGradient)">
+                                </path>
+
+                                <path
+                                    d="M0,145
+                                       C35,138 45,120 75,125
+                                       S120,105 150,112
+                                       S190,75 220,90
+                                       S260,58 290,72
+                                       S330,48 355,60
+                                       S400,30 430,48
+                                       S470,20 500,30"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="4"
+                                    stroke-linecap="round">
+                                </path>
+
+                            </svg>
+
+                        </div>
+
+
+                        <div class="mini-dashboard-cards">
+
+                            <div>
+                                <span>Produits</span>
+                                <strong>245</strong>
+                            </div>
+
+                            <div>
+                                <span>Clients</span>
+                                <strong>128</strong>
+                            </div>
+
+                            <div>
+                                <span>Bénéfice</span>
+                                <strong>3 420 €</strong>
+                            </div>
+
+                        </div>
+
+                    </main>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     LOGICIEL
+========================= -->
+
+<section class="section" id="logiciel">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>ALIDON GESTION</span>
+
+            <h2>
+                Un logiciel pensé pour
+                <strong>simplifier votre gestion.</strong>
+            </h2>
+
+            <p>
+                Une interface claire et moderne pour vous permettre
+                de retrouver rapidement les informations importantes
+                de votre activité.
+            </p>
+
+        </div>
+
+
+        <div class="intro-grid">
+
+            <article class="intro-card">
+                <div class="intro-icon">▣</div>
+                <h3>Centralisé</h3>
+                <p>
+                    Retrouvez vos informations de gestion
+                    au même endroit.
+                </p>
+            </article>
+
+            <article class="intro-card">
+                <div class="intro-icon">⚡</div>
+                <h3>Efficace</h3>
+                <p>
+                    Réalisez vos opérations quotidiennes
+                    rapidement et simplement.
+                </p>
+            </article>
+
+            <article class="intro-card">
+                <div class="intro-icon">✓</div>
+                <h3>Simple</h3>
+                <p>
+                    Une interface conçue pour être facile
+                    à comprendre et à utiliser.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FONCTIONNALITÉS
+========================= -->
+
+<section class="section features-section"
+         id="fonctionnalites">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span>FONCTIONNALITÉS</span>
+
+            <h2>
+                Tout ce dont vous avez besoin
+            </h2>
+
+            <p>
+                ALIDON GESTION rassemble les outils essentiels
+                pour gérer votre activité.
+            </p>
+
+        </div>
+
+
+        <div class="features-grid">
+
+            <article class="feature-card">
+                <div class="feature-icon">€</div>
+                <h3>Ventes</h3>
+                <p>
+                    Gérez vos ventes et suivez facilement
+                    vos opérations commerciales.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">▥</div>
+                <h3>Gestion du stock</h3>
+                <p>
+                    Suivez les entrées, sorties et niveaux
+                    de stock de vos produits.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">▤</div>
+                <h3>Achats</h3>
+                <p>
+                    Organisez vos achats et gardez une
+                    meilleure visibilité sur vos fournisseurs.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">◈</div>
+                <h3>Tableau de bord</h3>
+                <p>
+                    Visualisez rapidement les indicateurs
+                    importants de votre activité.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">⌁</div>
+                <h3>Évolution des ventes</h3>
+                <p>
+                    Analysez l'évolution de vos ventes
+                    dans le temps.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">⚙</div>
+                <h3>Paramètres</h3>
+                <p>
+                    Configurez les informations et paramètres
+                    de votre logiciel.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     DOWNLOAD
+========================= -->
+
+<section class="download-section">
+
+    <div class="container download-content">
+
+        <div>
+
+            <span class="download-label">
+                PRÊT À COMMENCER ?
+            </span>
+
+            <h2>
+                Téléchargez ALIDON GESTION
+            </h2>
+
+            <p>
+                Installez le logiciel sur votre ordinateur
+                et commencez à gérer votre activité simplement.
+            </p>
+
+        </div>
+
+        <a href="alidon gestion setup.exe"
+           class="download-large"
+           download>
+            ⬇ Télécharger maintenant
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     À PROPOS
+========================= -->
+
+<section class="section about-section"
+         id="apropos">
+
+    <div class="container about-grid">
+
+        <div class="about-logo">
+
+            <img src="logo_alidon.png"
+                 alt="ALIDON GESTION">
+
+            <span>ALIDON GESTION</span>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span>À PROPOS</span>
+
+            <h2>
+                Une solution conçue pour
+                <strong>faciliter votre quotidien.</strong>
+            </h2>
+
+            <p>
+                ALIDON GESTION est un logiciel de gestion
+                destiné aux entreprises qui souhaitent
+                simplifier le suivi de leurs activités.
+            </p>
+
+            <p>
+                L'objectif est simple :
+                proposer un outil pratique, clair et accessible
+                pour gérer les opérations essentielles.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section class="contact-section"
+         id="contact">
+
+    <div class="container contact-box">
+
+        <div>
+
+            <span>CONTACT</span>
+
+            <h2>
+                Une question ?
+                Parlons-en.
+            </h2>
+
+            <p>
+                Vous souhaitez obtenir plus d'informations
+                sur ALIDON GESTION ?
+            </p>
+
+        </div>
+
+
+        <div class="contact-actions">
+
+            <a href="mailto:contact@alidongestion.com"
+               class="contact-button">
+                ✉ Nous contacter
+            </a>
+
+            <a href="alidon gestion setup.exe"
+               class="contact-download"
+               download>
+                ⬇ Télécharger le logiciel
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div class="footer-brand">
+
+            <img src="logo_alidon.png"
+                 alt="ALIDON GESTION">
+
+            <div>
+                <strong>ALIDON GESTION</strong>
+                <span>Logiciel de gestion</span>
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#accueil">Accueil</a>
+            <a href="#logiciel">Le logiciel</a>
+            <a href="#fonctionnalites">
+                Fonctionnalités
+            </a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-copy">
+
+            © 2026 ALIDON GESTION.
+            Tous droits réservés.
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
